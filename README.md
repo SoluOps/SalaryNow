@@ -22,7 +22,7 @@ Date created: 27-03-2024
 - Unique hash ID generation for each prediction
 - Ability to retrieve historical predictions
 
-## Technologies Used
+## Technologies 
 
 ### Backend
 - Python: Core programming language
