@@ -116,7 +116,7 @@ class SalaryNow(EntryBox, ComboBox, Button, RadioButton):
         return testData, ageIn, genderIn, departmentIn, experienceIn, tenureIn
 
     def predict(self, testData):
-        model = joblib.load('../predictor/salary_predictor.pkl')
+        model = joblib.load('predictor/salary_predictor.pkl')
         gross = model.predict(testData).tolist() 
         gross = gross[0]
         gross = round(gross, 3)
