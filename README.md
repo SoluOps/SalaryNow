@@ -3,7 +3,9 @@ SalaryNow is a user-friendly salary prediction calculator that uses machine lear
 
 Date created: 27-03-2024
 
-![alt text](image.png)
+<div align="center">
+  <img src="image.png" alt="alt text" width="400">
+</div>
 
 ## Features
 
